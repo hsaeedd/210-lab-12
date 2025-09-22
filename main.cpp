@@ -8,7 +8,7 @@
 #include <array>
 using namespace std;
 
-const int SIZE = 5;
+const int SIZE = 30;
 
 int main(){
     array<int, SIZE> mph;
