@@ -11,7 +11,7 @@ using namespace std;
 const int SIZE = 5;
 
 int main(){
-    array<double, SIZE> mph;
+    array<int, SIZE> mph;
 
     ifstream fin;
     fin.open("mph.txt");
