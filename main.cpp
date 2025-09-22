@@ -19,9 +19,11 @@ int main(){
         for(int i = 0; i < SIZE;  i++){
             fin >> mph[i];
         }
-
-
         fin.close();
+        cout << "mph in zones nearby:" << endl;
+        for(int i = 0; i < SIZE; i++){
+            cout <<mph[i] << " ";
+        }
     }
 
 
