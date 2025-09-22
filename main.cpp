@@ -29,6 +29,8 @@ int main(){
         cout << "Back: " << mph.back() << endl;
         cout << "Empty?: " << (mph.empty() == 0? "False" : "True") << endl;
         cout << "Element 15: " << mph.at(15) << endl;
+        cout << "Min: " << *min_element(mph.begin(), mph.end()) << endl;
+        cout << "Max: " << *max_element(mph.begin(), mph.end()) << endl;
     }
 
     return 0;
