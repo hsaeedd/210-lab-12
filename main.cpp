@@ -17,7 +17,7 @@ int main(){
     fin.open("mph.txt");
     if (fin.good()){
         for(int i = 0; i < SIZE;  i++){
-            fin >> mph
+            fin >> mph[i];
         }
 
 
