@@ -11,7 +11,19 @@ using namespace std;
 const int SIZE = 5;
 
 int main(){
-    array<double, SIZE> mph= {};
+    array<double, SIZE> mph;
+
+    ifstream fin;
+    fin.open("mph.txt");
+    if (fin.good()){
+        for(int i = 0; i < SIZE;  i++){
+            fin >> mph
+        }
+
+
+        fin.close();
+    }
+
 
 
     return 0;
