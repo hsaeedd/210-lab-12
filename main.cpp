@@ -24,7 +24,7 @@ int main(){
         for(int i = 0; i < SIZE; i++){
             cout <<mph[i] << " ";
         }
-        cout << "Size: " << mph.size() << endl;
+        cout << "\nSize: " << mph.size() << endl;
         cout << "First: " << mph.front() << endl;
         cout << "Back: " << mph.back() << endl;
         cout << "Empty?: " << (mph.empty() == 0? "False" : "True") << endl;
